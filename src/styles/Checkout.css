@@ -1,0 +1,37 @@
+.checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.checkout .checkout_left .checkout_ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout .checkout_left .checkout_title {
+  margin-right: 10px;
+  pad: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+@media screen and (max-width: 600px) {
+  .checkout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .checkout_ad {
+    margin-left: -5vw;
+    margin-right: 0;
+    width: 99vw !important;
+    height: 5vh;
+  }
+}
+/*# sourceMappingURL=Checkout.css.map */

@@ -1,0 +1,33 @@
+.confirmare_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.confirmare {
+  min-height: 65vh;
+  background-color: white;
+}
+.confirmare h1 {
+  font-size: 25px;
+  width: 70%;
+  margin-top: 5vh;
+
+  font-weight: 500;
+}
+.confirmare img {
+  width: 25%;
+}
+.confirmare button {
+  background: #7ec8e3;
+  border: 1px solid;
+  margin-top: -1vh;
+  border-color: #68a7be;
+  color: #111;
+  padding: 3px 6px 3px 6px;
+  border-radius: 2px;
+  font-size: 17px;
+  cursor: pointer;
+}
