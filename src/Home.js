@@ -5,7 +5,7 @@ import MyProduct from './MyProduct';
 
 function Home({ searching }) {
 
-    const [prods, setProds] = useState(Products);
+    const [prods] = useState(Products);
 
     let input = searching;
 
